@@ -1,0 +1,20 @@
+{
+    "name": "xjryanse/xcache",
+    "description": "api",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xjryanse",
+            "email": "xjryanse@sina.com"
+        }
+    ],
+    "require": {
+		"xjryanse/curl": "*"
+	},
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+		  "xjryanse\\xcache\\": "src/"
+		}
+	}
+}
